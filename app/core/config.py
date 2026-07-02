@@ -9,6 +9,7 @@ class Settings(BaseSettings):
 
     # Mistral
     MISTRAL_API_KEY: str
+    HF_TOKEN: str
     MODEL_NAME: str = "mistral-small-latest"
 
     model_config = SettingsConfigDict(
